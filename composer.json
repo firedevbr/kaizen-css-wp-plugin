@@ -1,0 +1,20 @@
+{
+  "name": "firedevbr/kaizen-css-wp-plugin",
+  "description": "Plugin para integração com a ferramenta de controle de leads CSS da agência Kaizen",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Firedev\\KaizenCSS\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Firedev",
+      "email": "contato@firedev.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  }
+}
